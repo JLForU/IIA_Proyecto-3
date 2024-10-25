@@ -9,6 +9,7 @@ package org.example ;
 
 public class VariableLinguistica {
 
+
     private String nombre ;
 
     public String getNombre() {
@@ -18,5 +19,7 @@ public class VariableLinguistica {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
+
+
 }
 

@@ -9,6 +9,8 @@ import java.util.List;
 
 
 public class SistemaFuzzy {
+
+
     private List<VariableLinguistica> variables;
     private MotorInferenciaFuzzy motorInferencia;
 
@@ -28,4 +30,7 @@ public class SistemaFuzzy {
         motorInferencia.inferir(entrada1, entrada2);
         return motorInferencia.desfuzificar();
     }
+
+
 }
+

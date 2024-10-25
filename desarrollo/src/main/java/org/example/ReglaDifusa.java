@@ -10,6 +10,8 @@ import java.util.List;
 
 
 public class ReglaDifusa {
+
+
     private List<CondicionDifusa> condiciones;
     private ConjuntoDifuso consecuente;
 
@@ -49,4 +51,7 @@ public class ReglaDifusa {
         sb.append("Entonces ").append(consecuente.getNombre());
         return sb.toString();
     }
+
+
 }
+
