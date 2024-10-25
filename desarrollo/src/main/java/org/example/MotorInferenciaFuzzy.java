@@ -1,5 +1,13 @@
+
+// package
+package org.example ;
+
+
+// imports
 import java.util.HashMap;
 import java.util.Map;
+
+
 
 public class MotorInferenciaFuzzy {
     private BaseConocimiento baseConocimiento;

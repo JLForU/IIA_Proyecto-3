@@ -1,3 +1,11 @@
+
+// package
+package org.example ;
+
+
+// imports
+
+
 public class ConjuntoDifuso {
     private String nombre;
     private FuncionPertenencia funcionPertenencia;

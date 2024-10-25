@@ -1,3 +1,11 @@
+
+// package
+package org.example ;
+
+
+// imports
+
+
 public class CondicionDifusa {
     private VariableLinguistica variable;
     private ConjuntoDifuso conjunto;

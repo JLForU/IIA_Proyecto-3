@@ -1,4 +1,12 @@
+
+// package
+package org.example ;
+
+
+// imports
 import java.util.List;
+
+
 
 public class SistemaFuzzy {
     private List<VariableLinguistica> variables;
@@ -12,7 +20,7 @@ public class SistemaFuzzy {
     // Cargar el sistema desde archivos
     public void cargarSistema(String archivoVariables, String archivoReglas) {
         // Implementar la carga de variables y reglas desde los archivos
-        // Posiblemente utilice métodos de las clases BaseConocimiento y VariableLinguistica
+        // Posiblemente utilice métodos de las clases org.example.BaseConocimiento y VariableLinguistica
     }
 
     // Realizar el proceso completo de inferencia

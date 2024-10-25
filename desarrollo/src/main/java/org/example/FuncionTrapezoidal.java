@@ -1,3 +1,11 @@
+
+// package
+package org.example ;
+
+
+// imports
+
+
 public class FuncionTrapezoidal extends FuncionPertenencia {
     private double a;  // Punto izquierdo inferior
     private double b;  // Punto izquierdo superior
