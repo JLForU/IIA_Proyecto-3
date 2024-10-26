@@ -1,7 +1,17 @@
+
+// package
+package org.example ;
+
+
+// imports
 import java.util.ArrayList;
 import java.util.List;
 
+
+
 public class BaseConocimiento {
+
+
     private List<ReglaDifusa> reglas;
 
     public BaseConocimiento() {
@@ -28,4 +38,7 @@ public class BaseConocimiento {
     public List<ReglaDifusa> getReglas() {
         return reglas;
     }
+
+
 }
+

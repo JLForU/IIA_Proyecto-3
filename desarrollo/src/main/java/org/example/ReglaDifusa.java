@@ -1,6 +1,17 @@
+
+// package
+package org.example ;
+
+
+// imports
+import java.util.ArrayList;
 import java.util.List;
 
+
+
 public class ReglaDifusa {
+
+
     private List<CondicionDifusa> condiciones;
     private ConjuntoDifuso consecuente;
 
@@ -12,6 +23,10 @@ public class ReglaDifusa {
     public ReglaDifusa(List<CondicionDifusa> condiciones, ConjuntoDifuso consecuente) {
         this.condiciones = condiciones;
         this.consecuente = consecuente;
+    }
+
+    public ConjuntoDifuso getConsecuente () {
+        return this.consecuente ;
     }
 
     // Evaluar una regla con dos valores de entrada
@@ -36,4 +51,7 @@ public class ReglaDifusa {
         sb.append("Entonces ").append(consecuente.getNombre());
         return sb.toString();
     }
+
+
 }
+

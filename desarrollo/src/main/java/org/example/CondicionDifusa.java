@@ -1,4 +1,15 @@
+
+// package
+package org.example ;
+
+
+// imports
+
+
+
 public class CondicionDifusa {
+
+
     private VariableLinguistica variable;
     private ConjuntoDifuso conjunto;
 
@@ -18,4 +29,7 @@ public class CondicionDifusa {
     public String toString() {
         return variable.getNombre() + " es " + conjunto.getNombre();
     }
+
+
 }
+

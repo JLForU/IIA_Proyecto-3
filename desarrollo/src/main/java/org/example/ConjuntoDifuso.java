@@ -1,4 +1,15 @@
+
+// package
+package org.example ;
+
+
+// imports
+
+
+
 public class ConjuntoDifuso {
+
+
     private String nombre;
     private FuncionPertenencia funcionPertenencia;
 
@@ -23,4 +34,7 @@ public class ConjuntoDifuso {
     public String toString() {
         return nombre + " con función de pertenencia " + funcionPertenencia.toString();
     }
+
+
 }
+

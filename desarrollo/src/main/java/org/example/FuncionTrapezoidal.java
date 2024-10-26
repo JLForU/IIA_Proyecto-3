@@ -1,4 +1,14 @@
+
+// package
+package org.example ;
+
+
+// imports
+
+
 public class FuncionTrapezoidal extends FuncionPertenencia {
+
+
     private double a;  // Punto izquierdo inferior
     private double b;  // Punto izquierdo superior
     private double c;  // Punto derecho superior
@@ -29,4 +39,7 @@ public class FuncionTrapezoidal extends FuncionPertenencia {
     public String toString() {
         return "Trapezoidal(" + a + ", " + b + ", " + c + ", " + d + ")";
     }
+
+
 }
+

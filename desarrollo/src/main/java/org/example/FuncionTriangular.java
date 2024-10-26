@@ -1,4 +1,15 @@
+
+// package
+package org.example ;
+
+
+// imports
+
+
+
 public class FuncionTriangular extends FuncionPertenencia {
+
+
     private double a;  // Punto izquierdo del triángulo
     private double b;  // Punto superior (máximo) del triángulo
     private double c;  // Punto derecho del triángulo
@@ -27,4 +38,7 @@ public class FuncionTriangular extends FuncionPertenencia {
     public String toString() {
         return "Triangular(" + a + ", " + b + ", " + c + ")";
     }
+
+
 }
+
