@@ -24,9 +24,4 @@ public class FuncionTrapezoidal extends FuncionPertenencia {
             return (d - valor) / (d - c);
         }
     }
-
-    @Override
-    public String toString() {
-        return "Trapezoidal(" + a + ", " + b + ", " + c + ", " + d + ")";
-    }
 }
