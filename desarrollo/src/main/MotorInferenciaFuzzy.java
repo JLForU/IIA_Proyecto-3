@@ -1,17 +1,7 @@
-
-// package
-package org.example ;
-
-
-// imports
 import java.util.HashMap;
 import java.util.Map;
 
-
-
 public class MotorInferenciaFuzzy {
-
-
     private BaseConocimiento baseConocimiento;
     private Map<ConjuntoDifuso, Double> resultadoIntermedio;
 
@@ -50,7 +40,4 @@ public class MotorInferenciaFuzzy {
             System.out.println(entrada.getKey().getNombre() + ": " + entrada.getValue());
         }
     }
-
-
 }
-

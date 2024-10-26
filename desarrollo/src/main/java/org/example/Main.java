@@ -14,8 +14,6 @@ public class Main {
 
     public static void main ( String[] args ) {
 
-        SistemaFuzzy accionar = null ;
-
         System.out.println ( "\n\t// CODE" ) ;
 
     }
