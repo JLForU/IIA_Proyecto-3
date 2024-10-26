@@ -1,25 +1,18 @@
-
-// package
-package org.example ;
-
-
-// imports
-
-
+import java.io.IOException;
+import java.util.List;
 
 public class Main {
+    public static void main(String[] args) {
+        try {
+            List<VariableLinguistica> variables = VariableLinguistica.cargarDesdeArchivo("src/resources/variables.txt");
 
-    // @param args the command line arguments
+            MotorInferenciaFuzzy motor = new MotorInferenciaFuzzy(variables);
 
+            double[] valoresEntrada = {70.0, 45.0}; // Ejemplo de valores para "Distancia" y "Velocidad"
+            motor.realizarInferencia(valoresEntrada);
 
-    public static void main ( String[] args ) {
-
-        System.out.println ( "\n\t// CODE" ) ;
-
+        } catch (IOException e) {
+            System.err.println("Error al leer el archivo: " + e.getMessage());
+        }
     }
-
-
 }
-
-
-// To rest --->-->->    
