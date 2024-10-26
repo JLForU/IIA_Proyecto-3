@@ -1,10 +1,10 @@
 public class ConjuntoDifuso {
     private String nombre;
-    private FuncionPertenencia funcionPertenencia;
+    private FuncionPertenencia funcion;
 
-    public ConjuntoDifuso(String nombre, FuncionPertenencia funcionPertenencia) {
+    public ConjuntoDifuso(String nombre, FuncionPertenencia funcion) {
         this.nombre = nombre;
-        this.funcionPertenencia = funcionPertenencia;
+        this.funcion = funcion;
     }
 
     public String getNombre() {
@@ -16,11 +16,11 @@ public class ConjuntoDifuso {
     }
 
     public double calcularPertenencia(double valor) {
-        return funcionPertenencia.calcular(valor);
+        return funcion.calcular(valor);
     }
 
     @Override
     public String toString() {
-        return nombre + " con función de pertenencia " + funcionPertenencia.toString();
+        return nombre;
     }
 }
