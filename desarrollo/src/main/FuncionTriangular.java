@@ -1,4 +1,4 @@
-public class FuncionTriangular implements FuncionPertenencia {
+public class FuncionTriangular extends FuncionPertenencia {
     private double a;  // Punto izquierdo del triángulo
     private double b;  // Punto superior (máximo) del triángulo
     private double c;  // Punto derecho del triángulo
@@ -21,5 +21,10 @@ public class FuncionTriangular implements FuncionPertenencia {
         } else {
             return (c - valor) / (c - b);
         }
+    }
+
+    @Override
+    public String toString() {
+        return "Triangular(" + a + ", " + b + ", " + c + ")";
     }
 }
