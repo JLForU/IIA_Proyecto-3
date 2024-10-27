@@ -4,7 +4,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         try {
-            List<VariableLinguistica> variables = VariableLinguistica.cargarDesdeArchivo("src/resources/variables.txt");
+            List<VariableLinguistica> variables = VariableLinguistica.cargarDesdeArchivo("desarrollo/src/resources/variables.txt");
 
             MotorInferenciaFuzzy motor = new MotorInferenciaFuzzy(variables);
 

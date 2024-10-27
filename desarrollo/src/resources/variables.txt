@@ -1,0 +1,9 @@
+Variable: Distancia
+Conjunto: Cerca, triangular, 0.0, 0.0, 50.0
+Conjunto: Medio, triangular, 40.0, 75.0, 110.0
+Conjunto: Lejos, triangular, 100.0, 150.0, 200.0
+
+Variable: Velocidad
+Conjunto: Baja, trapezoidal, 0.0, 0.0, 30.0, 50.0
+Conjunto: Media, trapezoidal, 30.0, 50.0, 70.0, 90.0
+Conjunto: Alta, trapezoidal, 70.0, 100.0, 120.0, 150.0
