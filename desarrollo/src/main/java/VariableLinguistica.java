@@ -1,7 +1,11 @@
+
 import java.io.*;
 import java.util.*;
 
+
 public class VariableLinguistica {
+
+
     private String nombre;
     private List<ConjuntoDifuso> conjuntosDifusos;
     private Map<String, Double> valoresPertenencia;
@@ -72,4 +76,7 @@ public class VariableLinguistica {
     public String getNombre() {
         return nombre;
     }
+
+
 }
+

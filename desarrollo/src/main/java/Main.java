@@ -1,8 +1,13 @@
-import java.io.IOException;
-import java.util.List;
+
+import java.io.IOException ;
+import java.util.List ;
+
 
 public class Main {
+
+
     public static void main(String[] args) {
+
         try {
             List<VariableLinguistica> variables = VariableLinguistica.cargarDesdeArchivo("desarrollo/src/resources/variables.txt");
 
@@ -14,5 +19,9 @@ public class Main {
         } catch (IOException e) {
             System.err.println("Error al leer el archivo: " + e.getMessage());
         }
+
     }
+
+
 }
+

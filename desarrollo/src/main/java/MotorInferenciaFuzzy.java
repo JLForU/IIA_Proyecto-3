@@ -1,6 +1,10 @@
+
 import java.util.List;
 
+
 public class MotorInferenciaFuzzy {
+
+
     private List<VariableLinguistica> variables;
 
     public MotorInferenciaFuzzy(List<VariableLinguistica> variables) {
@@ -24,4 +28,7 @@ public class MotorInferenciaFuzzy {
             });
         }
     }
+
+
 }
+
