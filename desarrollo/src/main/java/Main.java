@@ -22,7 +22,7 @@ public class Main {
 
             MotorInferenciaFuzzy motor = new MotorInferenciaFuzzy(variables);
 
-            double[] valoresEntrada = {70.0, 45.0}; // Ejemplo de valores para "Distancia" y "Velocidad"
+            double[] valoresEntrada = {50.0, 61.0}; // Ejemplo de valores para "Servicio" y "Comida"
             motor.realizarInferencia(valoresEntrada);
 
         } catch (IOException e) {
