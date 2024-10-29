@@ -77,6 +77,13 @@ public class VariableLinguistica {
         return nombre;
     }
 
+    public double gradoPertenenciaConjunto(String nombreConjunto, double valor) {
+        return conjuntosDifusos.stream()
+                .filter(conjunto -> conjunto.getNombre().equals(nombreConjunto))
+                .findFirst()
+                .orElseThrow(() -> new IllegalArgumentException("Conjunto no encontrado: " + nombreConjunto))
+                .calcularPertenencia(valor);
+    }
 
 }
 

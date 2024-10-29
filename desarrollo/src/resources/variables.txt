@@ -7,4 +7,3 @@ Variable: Comida
 Conjunto: Salada, trapezoidal, 0.0, 10.0, 15.0, 30.0
 Conjunto: insipida, trapezoidal, 30.0, 45.0, 50.0, 59.0
 Conjunto: Dulce, trapezoidal, 60.0, 75.0, 90.0, 100.0
-

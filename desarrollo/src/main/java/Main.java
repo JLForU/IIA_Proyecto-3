@@ -22,8 +22,14 @@ public class Main {
 
             MotorInferenciaFuzzy motor = new MotorInferenciaFuzzy(variables);
 
-            double[] valoresEntrada = {50.0, 61.0}; // Ejemplo de valores para "Servicio" y "Comida"
+            double[] valoresEntrada = {54.0, 54.0}; // Ejemplo de valores para "Servicio" y "Comida"
             motor.realizarInferencia(valoresEntrada);
+            double servicio = valoresEntrada[0];
+            double comida = valoresEntrada[1];
+
+            double propinaRecomendada = motor.calcularPropina(servicio, comida);
+            System.out.println("La propina recomendada es: " + propinaRecomendada + "%");
+
 
         } catch (IOException e) {
             System.err.println("Error al leer el archivo: " + e.getMessage());
